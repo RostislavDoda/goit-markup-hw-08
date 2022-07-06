@@ -1,0 +1,30 @@
+.regular-client-list {
+    display: flex;
+    }
+    
+.regular-client-item:not(:last-child) {
+        margin-right: 30px;
+}
+    
+.regular-client-link {
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    @extend %flex-align;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        border-color:var(--accent-colour);}
+}
+    
+.regular-client-icon {
+    fill:#AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .regular-client-link:hover &,
+    .regular-client-link:focus & {
+        fill: var(--accent-colour);
+    }
+}

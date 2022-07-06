@@ -1,0 +1,23 @@
+@import './utils/variables';
+@import './utils/visually-hidden';
+@import './utils/placeholders';
+
+@import './base/base';
+@import './base/container';
+@import './base/section';
+
+@import './compoments/section-description';
+@import './compoments/logo';
+@import './compoments/backdrop';
+@import './compoments/modal-window';
+@import './compoments/modal-contact-form';
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/advantages';
+@import './layout/about-us';
+@import './layout/our-team';
+@import './layout/regular-clients';
+@import './layout/portfolio-filter-btns';
+@import './layout/portfolio-works';
+@import './layout/footer';
